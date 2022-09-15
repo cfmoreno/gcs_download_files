@@ -26,7 +26,7 @@ class StorageHandler:
 	def photo_download(self, directory = 'download'):
 
 		# get all the blobs
-		self.blobs = self.storage_client.list_blobs('adan-farm.appspot.com', prefix = 'bills')
+		self.blobs = self.storage_client.list_blobs('YourPage.appspot.com', prefix = 'bills')
 
 		n=0
 
