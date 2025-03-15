@@ -1,4 +1,3 @@
-# download_data.py
 import os
 from storage_handling import StorageHandler
 import logging
